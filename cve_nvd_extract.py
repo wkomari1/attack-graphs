@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 
 # Define the directory and file name
-output_dir = '/Users/williamomari/Documents/python_examples/thesis_cve_nvd'
+output_dir = '/Users/thesis_cve_nvd'
 output_file = f'{output_dir}/automotive_network_cves.xlsx'
 
 # NVD API endpoint for fetching CVEs
@@ -104,15 +104,7 @@ else:
     print("No CVEs were extracted from any keyword search.")
 
 
-'''
 
-Source of Data:
-
-The data in columns such as "Privilege needed", "Privilege acquired", "Component", and "Interface" appears
-to be derived from a combination of vulnerability descriptions and perhaps domain-specific knowledge, rather
-than being directly available in a structured format on the NVD website.
-
-'''
 
 
 
