@@ -108,7 +108,7 @@ vul_desc_data.columns = ['Type', 'ID', 'Prev_Step', 'Description', 'Vulnerabilit
 # Neo4j connection setup
 uri = "bolt://localhost:7687"  
 username = "neo4j"  
-password = "KXypk$_z98@$"  
+password = "*****"  
 
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
